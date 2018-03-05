@@ -13,3 +13,8 @@ Uses simple Markov Chain to generate sentence
 
 A sparse matrix was considered instead of an edge list however sparse matrices appear to take longer to construct 
 and the dictionary implementation of an edgelist also offers O(1) access time for the elements
+
+Known Bugs:
+
+There is an issue where on occasion the date metadata in the chat will be parsed into the message due to an
+inconsitency in how the chat html files are organized
